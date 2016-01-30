@@ -1,0 +1,17 @@
+# Ignorando arquivos temporarios do Linux
+*.*~
+.Trash-*
+
+# Ignorando demais arquivos temporarios
+*.*tmp
+
+# Ignorando arquivos de cache do Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignorando arquivos de configuracao do KDE
+.directory
+
+# Ignorando arquivos das IDEs do IntelliJ
+.idea/*
