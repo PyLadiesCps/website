@@ -66,7 +66,11 @@ a {
     left: 0;
 }
 
-.wrapper .motivation-left{
+.wrapper .motivation {
+    overflow: auto;
+}
+
+.wrapper .motivation .motivation-item {
     width: 45%;
     float: left;
     background: #e61543;
@@ -74,14 +78,38 @@ a {
     padding: 2.5%;
 }
 
-.wrapper .motivation-right{
-    width: 45%;
-    float: right;
-    background: #e61543;
-    text-align: center;
-    padding: 2.5%;
+.wrapper .events {
+    position:relative;
 }
 
+.wrapper .events .item .bg_img_main {
+    width: 52%;
+    height: 100%;
+    float:left;
+    background: red;
+}
+
+.wrapper .events .item .bg_img_secondary {
+    width: 16%;
+    height: 50%;
+    float:left;
+    background: green;
+}
+
+.wrapper .events .item .news {
+    width: 47%;
+    height: 48%;
+    float:left;
+    background: #e61543;
+    padding: 0.5%;
+}
+
+.wrapper .about{
+    background: url(pyladies_cps/pyladiescps.jpg) no-repeat fixed;
+    padding: 2.5%;
+    text-align: justify;
+}
 .footer, .push {
     height: 142px; /* .push must be the same height as .footer */
+    background: #000000;
 }
