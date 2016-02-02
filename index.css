@@ -80,20 +80,23 @@ a {
 
 .wrapper .events {
     position:relative;
+    height: 500px;
+}
+
+.wrapper .events .item {
+    height:100%;
 }
 
 .wrapper .events .item .bg_img_main {
     width: 52%;
     height: 100%;
     float:left;
-    background: red;
 }
 
 .wrapper .events .item .bg_img_secondary {
     width: 16%;
     height: 50%;
     float:left;
-    background: green;
 }
 
 .wrapper .events .item .news {
@@ -109,7 +112,14 @@ a {
     padding: 2.5%;
     text-align: justify;
 }
+
 .footer, .push {
     height: 142px; /* .push must be the same height as .footer */
-    background: #000000;
+    background: #E6E6E6;
+    padding: 1% 2.5% 1% 2.5%;
+}
+
+.footer .ico a {
+    color: #e61543;
+    padding: 5px;
 }
