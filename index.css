@@ -121,5 +121,6 @@ a {
 
 .footer .ico a {
     color: #e61543;
-    padding: 5px;
+    padding-right: 10px;
+    font-size: 25px;
 }
