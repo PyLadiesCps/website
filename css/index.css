@@ -13,7 +13,7 @@ a {
 
 .header {
     text-align: center;
-    background: url(img/background.jpg) no-repeat fixed;
+    background: url(../img/background.jpg) no-repeat fixed;
     background-size: cover;
     position: relative;
     top: 0;
@@ -108,7 +108,7 @@ a {
 }
 
 .wrapper .about{
-    background: url(pyladies_cps/pyladiescps.jpg) no-repeat fixed;
+    background: url(../img/pyladiescps.jpg) no-repeat fixed;
     padding: 2.5%;
     text-align: justify;
 }
