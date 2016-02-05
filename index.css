@@ -124,3 +124,8 @@ a {
     padding-right: 10px;
     font-size: 25px;
 }
+
+/* Remover margens dos items da galeria, adicionadas pelo Normalize.css */
+figure.item {
+    margin: 0;
+}
