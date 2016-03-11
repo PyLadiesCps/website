@@ -68,6 +68,7 @@ a {
 
 .wrapper .motivation {
     overflow: auto;
+    background: #e61543;
 }
 
 .wrapper .motivation .motivation-item {
