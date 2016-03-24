@@ -15,3 +15,5 @@ $RECYCLE.BIN/
 
 # Ignorando arquivos das IDEs do IntelliJ
 .idea/*
+
+.DS_Store

@@ -19,7 +19,7 @@ a {
     top: 0;
     left: 0;
     color: #fff;
-    padding: 5em;   
+    padding: 2em 2em 4em;   
 }
 
 .header h1 {
@@ -30,14 +30,11 @@ a {
 
 .header .header-logo {
     width: 40%;
-    padding-top: 2.5em;
 }
 
-.header .inline-menu {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 1em 5em;
+.header .geek-logo {
+   width: 15%;
+    padding-top: 2.5em;
 }
 
 .header .inline-menu a {
@@ -45,7 +42,6 @@ a {
     transition: linear 200ms all;
     -webkit-transition: linear 200ms all;
     font-weight: 400;
-    
 }
 
 .header .inline-menu li {
@@ -106,8 +102,9 @@ a {
     color: #fa023c;
 }
 
-.wrapper .motivation .motivation-item p {
+p {
     text-indent: 2em;
+    line-height: 1.5;
 }
 
 .wrapper .events {
@@ -141,12 +138,19 @@ a {
 }
 
 .wrapper .about{
-    background: url(../img/pyladiescps.jpg) no-repeat fixed;
-    padding: 2.5%;
+    background-color: white;
+    padding: 2em;
     text-align: justify;
+    color: black;
 }
 
-.footer h3 {
+.wrapper .about h1,
+.wrapper .about h2{
+    font-family: 'Bree Serif', serif;
+    color: #fa023c;
+}
+
+.footer h2 {
     color: white;
     font-family: 'Bree Serif', serif;
 }
